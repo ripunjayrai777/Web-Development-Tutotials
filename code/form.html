@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <form action="https://www.xyz.com" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" required placeholder="Ripunjay Rai">
+        <br/>
+        <label for="">password:</label>
+        <input type="password">
+        <br/>
+        <input type="submit" value="submit">
+        <br>
+        <label for="">Country:</label>
+        <input type="text" value="India"  disabled>
+        <br>
+        <br>
+        <input type="checkbox" name="vechile1" value="Bike"> I have a Bike. <br/>
+        <input type="checkbox" name="vechile2" value="Car"> I have a Car. <br/>
+        <br>
+        <input type="radio" name="gender" value="male" > Male <br>
+        <input type="radio" name="gender" value="female"> Female
+
+
+    <br>
+    <br>
+    <!-- fieldset -->
+    <fieldset>
+        <legend>details:</legend>
+        Name: <input type="text"><br>
+        Email: <input type="email">
+    </fieldset>
+    <br>
+    <br>
+    <!-- Dropdown -->
+
+    <select name="select">
+        <option value="value1">value 1</option>
+        <option value="value2" selected>value 2</option>
+        <option value="value3">value 3</option>
+    </select>
+<br>
+<br>
+    <select name="select2">
+        <optgroup label="abcd">
+            
+                <option value="value1">value 1</option>
+                <option value="value2" >value 2</option>
+                <option value="value3">value 3</option>
+            
+        </optgroup>
+        <optgroup label="xyz">
+            
+                <option value="value4">value 4</option>
+                <option value="value5" >value 5</option>
+                <option value="value6">value 6</option>
+            
+        </optgroup>
+    </select>
+    <br>
+    <label>Write about yourself:</label>
+    <textarea rows="5" cols="80"></textarea>
+    <br>
+    <button type="submit" autofocus onclick="alert('thanks')">submit button</button>
+    <br><br>
+    
+    <audio controls>
+        <source src="cn.mp3" type="audio/avi">
+    </audio>
+    <figure>
+        <img src="" alt="">
+        <figcaption>Fig. 1</figcaption>
+    </figure>
+    <link rel="icon" href="/favicon" type="image/x-icon">
+    </form>
+</body>
+</html>
